@@ -272,6 +272,15 @@ nav{
 @media (max-width: 768px) {
     .contact-banner {
         height: auto !important;
+        header {
+        flex-direction: row !important;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    nav {
+        gap: 15px;
+    }
     }
 
     .banner-text {
