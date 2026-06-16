@@ -560,3 +560,22 @@ footer{
 .hero-content{
     display:none;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column !important;
+        padding: 0 15px !important;
+    }
+
+    .service-cards {
+        padding: 20px 0 !important;
+    }
+
+    .hero-tech {
+        height: auto !important;
+        padding: 40px 15px !important;
+    }
+
+    .hero-content h1 {
+        font-size: 22px !important;
+    }
+}
