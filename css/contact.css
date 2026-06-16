@@ -241,58 +241,66 @@
     font-weight: 600;
     line-height: 1.5;
 }
-header{
-    height:70px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 30px;
-    border-bottom:1px solid #ddd;
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+    background: #ffffff;
 }
 
-nav{
-    display:flex;
-    gap:40px;
+header img, .logo { 
+    height: 45px !important; 
+    width: auto !important;
+    display: block;
 }
 
-
-.service-cards{
-    background:#800020;
-    width:100%;
-    padding:40px 0;
+nav {
+    display: flex;
+    gap: 40px;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
-    display:flex;
-    justify-content:center;
-    gap:25px;
+.contact-banner h1, 
+.banner-text,
+img[alt*="Banner Contact"],
+.contact-banner [class*="TechSolutions"] { 
+    display: none !important; 
 }
+
 @media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
     .contact-banner {
         height: auto !important;
-        header {
+    }
+
+    header {
+        display: flex !important;
         flex-direction: row !important;
-        justify-content: space-between;
-        padding: 0 15px;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 0 15px !important;
+        height: 70px !important;
     }
 
-    nav {
-        gap: 15px;
-    }
-    }
-
-    .banner-text {
+    header nav {
+        display: flex !important;
+        flex-direction: row !important;
         position: static !important;
-        transform: none !important;
-        padding: 30px 15px !important;
-        text-align: center !important;
+        gap: 15px !important;
+        width: auto !important;
+        height: auto !important;
+        background: transparent !important;
     }
 
-    .banner-text h1 {
-        font-size: 24px !important;
-        max-width: 100% !important;
+    header nav a, header nav li {
+        display: inline-block !important;
+        width: auto !important;
+        margin: 0 !important;
     }
 
     .benefits-table {
@@ -316,49 +324,5 @@ nav{
     .contact-card {
         width: 100% !important;
         max-width: 100% !important;
-    }
-}
-@media(max-width:768px) {
-    header, header * {
-        flex-direction: row !important;
-    }
-    header nav {
-        display: flex !important;
-        flex-direction: row !important;
-        gap: 15px !important;
-    }
-}
-@media(max-width:768px) {
-    header {
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        position: relative !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 70px !important;
-        background: #ffffff !important;
-        z-index: 9999 !important;
-        transform: none !important;
-    }
-
-    header nav {
-        display: flex !important;
-        flex-direction: row !important;
-        position: static !important;
-        gap: 15px !important;
-        width: auto !important;
-        height: auto !important;
-        background: transparent !important;
-        transform: none !important;
-    }
-
-    header nav a, header nav li {
-        display: inline-block !important;
-        position: static !important;
-        width: auto !important;
-        margin: 0 !important;
     }
 }
