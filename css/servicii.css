@@ -194,30 +194,3 @@ footer{
     color:#800020;
     margin-bottom:20px;
 }
-@media (max-width: 768px) {
-    header {
-        background-color: #ffffff !important;
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        height: 50px !important;
-    }
-
-    header nav a {
-        color: #333333 !important;
-    }
-
-    .service-cards .container {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 20px !important;
-        padding: 0 15px !important;
-    }
-
-    .service-card {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 auto !important;
-    }
-}
