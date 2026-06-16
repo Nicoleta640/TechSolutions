@@ -938,3 +938,107 @@ header {
         text-align: left !important;
     }
 }
+@media (min-width: 992px) {
+    body header {
+        height: 80px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 0 8% !important;
+        background: #ffffff !important;
+    }
+
+    body header nav {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 35px !important;
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        background: transparent !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+
+    body header nav a {
+        display: inline-block !important;
+        color: #3f3f3f !important;
+        font-size: 16px !important;
+    }
+
+    body .container {
+        max-width: 1200px !important;
+        width: 90% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    body .cards, 
+    body .service-cards, 
+    body .tech-grid, 
+    body .objective-cards, 
+    body .stats, 
+    body .contact-cards,
+    body .servicii .container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 30px !important;
+        padding: 40px 0 !important;
+        width: 100% !important;
+        flex-direction: row !important;
+    }
+
+    body .card, 
+    body .service-card, 
+    body .objective-card, 
+    body .stat, 
+    body .contact-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    body .contact-home, 
+    body .appointment-section, 
+    body .benefits-table {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+        gap: 50px !important;
+    }
+
+    body .contact-home h2, 
+    body .appointment-text {
+        flex: 1 !important;
+        text-align: left !important;
+    }
+
+    body form, 
+    body .contact-form {
+        flex: 1 !important;
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+    }
+
+    body footer .footer-container {
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 40px !important;
+        padding: 60px 20px !important;
+    }
+
+    body .footer-col {
+        text-align: left !important;
+    }
+}
