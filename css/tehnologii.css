@@ -365,6 +365,34 @@ nav a.active::after{
     background:var(--primary);
 }
 @media (max-width: 768px) {
+    header {
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        padding: 15px !important;
+        gap: 10px !important;
+        background: #fff !important;
+    }
+
+    nav {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        padding: 0 !important;
+    }
+
+    nav a {
+        font-size: 13px !important;
+    }
+
     .container {
         display: block !important;
         padding: 0 15px !important;
