@@ -412,3 +412,23 @@ nav a.active::after{
         font-size: 22px !important;
     }
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .Structura-site-ului-web, 
+  [class*="logo"], 
+  [class*="banner"] {
+    position: static !important;
+    float: none !important;
+    margin: 10px auto !important;
+    max-width: 90% !important;
+    transform: none !important;
+    left: auto !important;
+    top: auto !important;
+  }
+}
