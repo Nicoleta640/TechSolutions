@@ -1042,3 +1042,24 @@ header {
         text-align: left !important;
     }
 }
+form {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+form input, 
+form select {
+  width: 180px !important;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  white-space: nowrap;
+  padding: 10px 20px;
+}
