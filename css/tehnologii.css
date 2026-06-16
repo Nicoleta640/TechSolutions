@@ -392,6 +392,26 @@ nav a {
     color: #444 !important;
     font-size: 15px !important;
     white-space: nowrap !important;
+    display: inline-block !important;
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 70px !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        padding: 0 20px !important;
+    }
+    nav {
+        flex-direction: row !important;
+        gap: 15px !important;
+    }
+}
+nav a {
+    text-decoration: none !important;
+    color: #444 !important;
+    font-size: 15px !important;
+    white-space: nowrap !important;
 }
 
 @media(max-width: 992px) {
