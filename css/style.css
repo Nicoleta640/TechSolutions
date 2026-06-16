@@ -1042,24 +1042,22 @@ header {
         text-align: left !important;
     }
 }
-form {
+div, form, .row, .form-row, .d-flex {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
 }
 
-form input, 
-form select {
+input, select, .form-control {
   width: 180px !important;
-  max-width: 100%;
-  box-sizing: border-box;
+  max-width: 180px !important;
+  flex: none !important;
 }
 
-form button {
-  white-space: nowrap;
-  padding: 10px 20px;
+button {
+  white-space: nowrap !important;
+  flex: none !important;
 }
