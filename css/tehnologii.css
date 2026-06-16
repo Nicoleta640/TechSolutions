@@ -468,3 +468,37 @@ img {
     left: auto !important;
   }
 }
+header {
+    height: 70px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 30px !important;
+    border-bottom: 1px solid #ddd !important;
+    background: #ffffff !important; 
+    position: relative !important;
+    z-index: 9999 !important;
+}
+
+header .logo img {
+    height: 55px !important;
+    width: auto !important;
+}
+
+header nav {
+    display: flex !important;
+    gap: 35px !important;
+    background: transparent !important;
+}
+
+header nav a {
+    text-decoration: none !important;
+    color: #444 !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+
+header nav a.active {
+    color: #98002e !important;
+    font-weight: bold !important;
+}
