@@ -252,15 +252,22 @@ header {
     background: #ffffff;
 }
 
-header img, .logo { 
+header img, .logo, .logo img { 
     height: 45px !important; 
     width: auto !important;
     display: block;
 }
 
 nav {
-    display: flex;
-    gap: 40px;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 40px !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
 }
 
 .contact-banner h1, 
