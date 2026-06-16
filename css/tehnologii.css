@@ -364,3 +364,23 @@ nav a.active::after{
     height:3px;
     background:var(--primary);
 }
+@media (max-width: 768px) {
+    .container {
+        display: block !important;
+        padding: 0 15px !important;
+    }
+
+    .cards {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    .hero {
+        height: auto !important;
+        padding: 40px 15px !important;
+    }
+
+    .overlay h1 {
+        font-size: 22px !important;
+    }
+}
