@@ -200,48 +200,25 @@
         Completeaza formularul și te contactăm imediat
     </p>
 
-    <form action="pagini/contact-success.html">
+ <form action="https://api.sheetmonkey.io/form/evpHHMeP4RfQgsnUKBcQrq" method="post">
+     <input type="hidden" name="x-sheetmonkey-redirect" value="pagini/abonament-success.html">
 
-        <input
-        type="text"
-        placeholder="Nume, Prenume"
-        required>
+    <input type="text" name="nume" placeholder="Nume, Prenume" required>
 
-        <input
-        type="email"
-        placeholder="Adresa de email*"
-        required>
+    <input type="email" name="email" placeholder="Adresa de email*" required>
 
-         <input
-        type="Telefon"
-        placeholder="Telefon*"
-        required>
+    <input type="tel" name="telefon" placeholder="Telefon*" required>
 
-        <select required>
+    <select name="abonament" required>
+        <option value="">Alege abonamentul</option>
+        <option value="IT Core">IT Core</option>
+        <option value="IT Boost">IT Boost</option>
+        <option value="IT Master">IT Master</option>
+    </select>
 
-            <option value="">
-                Alege abonamentul
-            </option>
+    <button type="submit">Trimite</button>
 
-            <option>
-                IT Core
-            </option>
-
-            <option>
-                IT Boost
-            </option>
-
-            <option>
-                IT Master
-            </option>
-
-        </select>
-
-        <button type="submit">
-            Trimite
-        </button>
-
-    </form>
+</form>
 
 </section>
 
