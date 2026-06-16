@@ -752,7 +752,3 @@ header {
     font-size:20px;
     cursor:pointer;
 }
-.footer-col a{
-    position: relative;
-    z-index: 9999;
-}
