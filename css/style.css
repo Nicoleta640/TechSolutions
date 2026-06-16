@@ -752,3 +752,83 @@ header {
     font-size:20px;
     cursor:pointer;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container, .footer-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 15px !important;
+        gap: 20px !important;
+    }
+
+    .cards, .tech-grid, .objective-cards, .service-cards {
+        grid-template-columns: 1fr !important;
+        padding: 0 15px !important;
+        width: 100% !important;
+    }
+
+    .card, .service-card, .objective-card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    form, .contact-form, .appointment-form {
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    form .row, .contact-form .row {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+
+    form input, form select, form textarea, form button,
+    .contact-form input, .contact-form select, .contact-form textarea, .contact-form button {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    img, .home-banner img, .contact-banner img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .banner-text h1, .overlay h1, .hero-content h1 {
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+        position: static !important;
+        transform: none !important;
+        text-align: center !important;
+    }
+
+    .banner-text, .overlay, .hero-content {
+        position: static !important;
+        transform: none !important;
+        padding: 20px !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .payments {
+        justify-content: center !important;
+    }
+}
