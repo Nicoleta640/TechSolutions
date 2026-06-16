@@ -269,3 +269,43 @@ nav{
     justify-content:center;
     gap:25px;
 }
+@media (max-width: 768px) {
+    .contact-banner {
+        height: auto !important;
+    }
+
+    .banner-text {
+        position: static !important;
+        transform: none !important;
+        padding: 30px 15px !important;
+        text-align: center !important;
+    }
+
+    .banner-text h1 {
+        font-size: 24px !important;
+        max-width: 100% !important;
+    }
+
+    .benefits-table {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        padding: 20px 15px !important;
+    }
+
+    .table-divider {
+        display: none !important;
+    }
+
+    .contact-cards {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px !important;
+        margin: 30px auto !important;
+        padding: 0 15px !important;
+    }
+
+    .contact-card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
